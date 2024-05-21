@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+.container1{
+    background-image: url('/public/FundoQuadrado.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 1440px;
+    height: 900px;
+}
+#Logo{
+    position: relative;
+    top: 230px;
+    left: 25px;
+    z-index: 1;
+    width: 350px;
+    height: 180px;
+}
+.ContainerCad{
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    background-color: #fff;
+    height: 90vh;
+    width: 100vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.container2{
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    position: relative;
+    left: 550px;
+    top: -504px;
+    width: 100vh;
+    height: 90vh;
+    background-color: #E9E9E9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+button{
+    cursor: pointer;
+}
+#Voltar{
+    background-color: #8C52FF;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    letter-spacing: 4px;
+    position: relative;
+    top: 350px;
+    left: 135px;
+    font-weight: bold;
+    border: none;
+}
+#Voltar:hover{
+    opacity: 95%;
+}
+#Cad{
+    color: #000000;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 1000;
+    font-size: 60px;
+}
+#Professor{
+    letter-spacing: 3px;
+    color: #8C52FF;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 1000;
+    font-size: 60px;
+}
+.input{
+    position: relative;
+    left: 110px;
+    top: -50px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+#NIF{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    top: -35px;
+}
+#txtcpf{
+    position: relative;
+    top: -10px;
+    left: 110px;
+}
+#Data{
+    position: relative;
+    top: -105px;
+    left: 320px;
+    width: 200px;
+    height: 20px;
+}
+#CPF{
+    position: relative;
+    top: -25px;
+}
+#txtnascimento{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: -80px;
+    left: 320px;
+    font-size: 15px;
+}
+#txtnif{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: -20px;
+    left: 110px;
+    font-size: 15px;
+}
+#Senha{
+    position: relative;
+    top: -10px;
+}
+#txtsenha{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 110px;
+    top: 5px;
+    font-size: 15px;
+}
+#Email{
+    position: relative;
+    top: 1px;
+}
+#txtemail{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 110px;
+    font-size: 15px;
+}
+#Nome{
+    position: relative;
+    top: 10px;
+}
+#txtnome{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 110px;
+    font-size: 15px;
+}
+#Concluir{
+    background-color: #8C52FF;
+    border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    position: relative;
+    font-weight: bold;
+    top: -60px;
+    letter-spacing: 2px;
+    color: #fff;
+    border: none;
+}
